@@ -5,28 +5,23 @@
 
 
 .parent{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: white;
     display: flex;
 }
-.child{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-}
 .sidebar{
-    background-color: rgb(226, 215, 215);
-    width: 350px;
-    height: 100vh;
+    background-color: rgb(229, 223, 223);
+    width: 300px;
+    height: 100%;
     padding: 25px;
 
 }
 .logo{
-    width: 140px;
+    width: 50px;
     padding-top: 40px;
 }
-.dp{
+.pro{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +34,7 @@
     align-items: center;
     font-size: large;
 }
-.coma{
+.e{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,112 +42,110 @@
     font-size: small;
 
 }
-.ff{
-    
+.all{
+    padding-left: 20px;
+    display: flex;
+    gap: 30px;
 }
-
-
 .home{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 20px;
+    justify-content: centre;
+    align-items: center;  
     gap: 20px;
+    font-size: small;
+    
+     
 }
 .search{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 20px;
+    justify-content: centre;
+    align-items: center; 
     gap: 20px;
-    
+    font-size: small;
 }
 .reels{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 20px;
+    justify-content: centre;
+    align-items: center; 
     gap: 20px;
+    font-size: small;
 }
 .shop{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 20px;
+    justify-content: centre;
+    align-items: center; 
     gap: 20px;
+    font-size: small;
 }
-.acc{
+.account{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 20px;
+    justify-content: centre;
+    align-items: center; 
     gap: 20px;
+    font-size: small;
 }
-.h1{
+.line{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 20px;
-    padding-top: 30px;
-    gap: 20px;
+    justify-content: centre;
+    align-items: center; 
+    gap: 30px;
+    font-size: small;
 }
-.menu{
-    height: 100vh;
-    width: calc(100%-350px);
-    display: grid;
-}
-.st{
-    
+
+.searchbar{
     border: 2px white;
     background-color: rgb(230, 222, 222);
     margin: 30px;
     display: flex;
     justify-content: left;
     align-items:center;
-    height: 40px;
-    width: 300px;
-    gap: 50px;
+    height: 30px;
+    width: 200px;
+    gap: 20px;
     padding: 15px;
     border-radius: 10px;
     font-size: medium;
     margin-left: 50px;
 }
-.stry{
+.stories{
+    font-size: x-large;
     padding-left: 50px;
+
+}
+.s1{
+    display: flex;
+    justify-content:left;
+    align-items: flex-end;
+    padding-left: 50px;
+    gap: 20px;
 }
 .container{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-left: 50px;
-}
-.plus{
-    display: flex;
-    justify-content: left;
-    align-items: end;
-}
-.about{
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    padding-top: 15px;
+    padding-left: 40px;
 }
 .bin{
     position: relative;
 }
 .plus{
     position: absolute;
-    margin: 80px;
-    
+    margin: 70px;
 }
-
- .feed{
+.fe{
+    font-size: x-large;
+    padding-left: 30px;
+}
+.feed{
+    padding: 30px;
     display: grid;
+    
+    gap: 20px;
  }
  .p1{
     grid-row-start: 1;
     grid-row-end: 2;
-    padding-left: 50px;
+    position: relative;
  }
  .p2{
     grid-row-start: 1;
@@ -161,14 +154,5 @@
  .p3{
     grid-row-start: 1;
     grid-row-end: 2;
- }
- .p4{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    padding-left: 50px;
- }
- .p5{
-    grid-column-start: 2;
-    grid-column-end: 3;
  }
  
